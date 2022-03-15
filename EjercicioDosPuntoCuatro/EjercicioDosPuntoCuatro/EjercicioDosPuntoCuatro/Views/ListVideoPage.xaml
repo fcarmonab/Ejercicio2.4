@@ -8,24 +8,23 @@
             <ListView x:Name="lstvideos"  HasUnevenRows="True" SeparatorVisibility="None" ItemTapped="lstvideos_ItemTapped"  ItemSelected="lstvideos_ItemSelected" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell  >
-                            <Grid Padding="8" >
-                                <Frame CornerRadius="10" HasShadow="True">
+                       <ViewCell >
                                     <SwipeView>
                                         <SwipeView.RightItems>
-                                            <SwipeItem  Text="Ver Detalles" BackgroundColor="#2296F3" Invoked="VerDetalles" />
+                                            <SwipeItem  Text="Ver Detalles" Invoked="VerDetalles" />
                                         </SwipeView.RightItems>
+                                
                                             <StackLayout Orientation="Horizontal">
                                                 <StackLayout Orientation="Vertical">
-                                                    <Label Text="{Binding Codigo}" Grid.Row="0" Grid.Column="0"   />
-                                                    <Label Text="{Binding Url_video}" Grid.Row="0" Grid.Column="1" /> 
-                                                    <Label Text="{Binding Descripcion}" Grid.Row="0" Grid.Column="3" />
+                                                    <Label Text="{Binding Codigo}" Grid.Row="0" Grid.Column="0" IsVisible="false"/>
+                                                    <Label Text="{Binding Descripcion}" Grid.Row="0" Grid.Column="1" />
+                                                    <Label Text="{Binding Url_video}" Grid.Row="0" Grid.Column="2" FontSize="8" TextColor="Blue"/> 
                                                 </StackLayout>
                                             </StackLayout>
                                     </SwipeView>
-                                </Frame>
-                            </Grid>
+                            
                         </ViewCell>
+                     
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -22,39 +22,7 @@ namespace EjercicioDosPuntoCuatro
             InitializeComponent();
         }
 
-        private void btnVideo_Clicked(object sender, EventArgs e)
-        {
-            TomarVideoDeGaleria();
-        }
-
-        public async void TomarVideoDeGaleria()
-        {
-            try
-            {
-                var photo = await MediaPicker.PickVideoAsync();
-                await LoadPhotoAsync(photo);
-                Console.WriteLine($"CapturePhotoAsync COMPLETED: {PhotoPath}");
-                //await DisplayAlert("as", PhotoPath, "ok");
-
-                UriVideoSource uriVideoSurce = new UriVideoSource()
-                {
-                    Uri = PhotoPath
-                };
-                videoPlayer.Source = uriVideoSurce;
-            }
-
-            catch (FeatureNotSupportedException)
-            {
-            }
-            catch (PermissionException)
-            {
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"CapturePhotoAsync THREW: {ex.Message}");
-            }
-        }
-
+        
         public async void TomarVideoTiempoReal()
         {
             try
@@ -117,24 +85,29 @@ namespace EjercicioDosPuntoCuatro
             var videos = new Models.Videos
             {
                 Url_video = PhotoPath,
-                Descripcion = txtPineda.Text
+                Descripcion = txtDescripcion.Text
             };
 
             var resultado = await App.BaseDatos.GrabarVideos(videos);
 
             if (resultado == 1)
             {
-                await DisplayAlert("", "Video Registrado.", "ok");               
+                await DisplayAlert("", "Video Registrado.", "ok");
+                txtDescripcion.Text = "";
             }
             else
             {
                 await DisplayAlert("Error", "No se pudo Guardar", "ok");
             }
+
+
         }
 
         private async void btnLista_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListVideoPage());
         }
+
+
     }
 }

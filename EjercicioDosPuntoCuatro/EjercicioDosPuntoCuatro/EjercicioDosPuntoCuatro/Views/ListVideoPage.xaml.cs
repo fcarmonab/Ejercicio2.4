@@ -25,21 +25,24 @@ namespace EjercicioDosPuntoCuatro.Views
             lstvideos.ItemsSource = lista;
         }
 
-        private void lstvideos_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void lstvideos_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             lstvideos.SelectedItem = null;
+            try 
+            {
+                Models.Videos item = (Models.Videos)e.Item;
+                var newpage = new RecordVideoPage(item);
+                newpage.BindingContext = item;
+                await Navigation.PushAsync(newpage);
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message.ToString(), "Ok");
+            }
         }
 
         private void lstvideos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            /*
-            Videos selected = e.SelectedItem as Videos;
-            if (selected == null)
-                return;
-
-            await Navigation.PushAsync(new Informacion(selected));
-            //await DisplayAlert("Pais", selected.url_video + "", "ok");
-            */
         }
 
         private async void VerDetalles(object sender, EventArgs e)
@@ -47,7 +50,6 @@ namespace EjercicioDosPuntoCuatro.Views
             SwipeItem item = sender as SwipeItem;
             Videos model = item.BindingContext as Videos;
             await Navigation.PushAsync(new RecordVideoPage(model));
-            //await DisplayAlert("Pais", model.url_video + "", "ok");
         }
     }
 }

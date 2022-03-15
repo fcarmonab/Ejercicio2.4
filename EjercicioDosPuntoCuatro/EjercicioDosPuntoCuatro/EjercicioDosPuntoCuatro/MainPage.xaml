@@ -4,25 +4,23 @@
              xmlns:video="clr-namespace:Xam.Forms.VideoPlayer;assembly=Xam.Forms.VideoPlayer"
              x:Class="EjercicioDosPuntoCuatro.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="White">
         <video:VideoPlayer 
             PlayCompletion="videoPlayer_PlayCompletion"   
             x:Name="videoPlayer" 
-            BackgroundColor="Gray"
+            BackgroundColor="White"
             HorizontalOptions="Center"
             HeightRequest="200" 
             WidthRequest="300"/>
 
         <Button 
-            Text="Capturar Video" 
-            x:Name="btnVideo" 
-            Clicked="btnVideo_Clicked" />
-        <Button 
             Text="Grabar Video" 
             x:Name="btnreproducir" 
             Clicked="btnreproducir_Clicked" />
         
-        <Entry Placeholder="Desscripción" x:Name="txtPineda" />
+        <Entry Placeholder="Breve descripción del video" 
+               x:Name="txtDescripcion"
+               />
 
         <Button 
             Text="Guardar Video" 
