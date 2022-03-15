@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioDosPuntoCuatro.Android", "EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro.Android\EjercicioDosPuntoCuatro.Android.csproj", "{3008D169-B153-4AA8-9A71-22635A6ECD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioDosPuntoCuatro", "EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro.csproj", "{22D0B1FB-3191-4430-A115-6C87AAC0AB39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioDosPuntoCuatro", "EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro.csproj", "{22D0B1FB-3191-4430-A115-6C87AAC0AB39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

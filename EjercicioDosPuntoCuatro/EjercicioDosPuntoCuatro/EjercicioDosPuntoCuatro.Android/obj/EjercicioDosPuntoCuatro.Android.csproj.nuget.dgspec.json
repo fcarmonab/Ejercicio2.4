@@ -42,13 +42,25 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2337, )"
+            },
+            "Xamarin.MediaGallery": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           }
         }
@@ -100,13 +112,25 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2337, )"
+            },
+            "Xamarin.MediaGallery": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
