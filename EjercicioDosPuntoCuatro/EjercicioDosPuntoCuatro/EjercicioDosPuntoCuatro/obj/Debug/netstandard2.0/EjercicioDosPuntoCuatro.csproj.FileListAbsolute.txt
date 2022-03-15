@@ -13,3 +13,5 @@ E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDos
 E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.dll
 E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\ref\EjercicioDosPuntoCuatro.dll
 E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.pdb
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\Views\ListVideoPage.xaml.g.cs
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\Views\RecordVideoPage.xaml.g.cs
