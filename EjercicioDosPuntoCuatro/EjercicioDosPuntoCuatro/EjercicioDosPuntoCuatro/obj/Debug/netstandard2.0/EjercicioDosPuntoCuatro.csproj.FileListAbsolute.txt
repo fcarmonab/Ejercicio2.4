@@ -1,0 +1,15 @@
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\bin\Debug\netstandard2.0\EjercicioDosPuntoCuatro.deps.json
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\bin\Debug\netstandard2.0\EjercicioDosPuntoCuatro.dll
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\bin\Debug\netstandard2.0\ref\EjercicioDosPuntoCuatro.dll
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\bin\Debug\netstandard2.0\EjercicioDosPuntoCuatro.pdb
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.csproj.AssemblyReference.cache
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.AssemblyInfoInputs.cache
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.AssemblyInfo.cs
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.csproj.CoreCompileInputs.cache
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\XamlC.stamp
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.dll
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\ref\EjercicioDosPuntoCuatro.dll
+E:\git\Ejercicio2.4\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\EjercicioDosPuntoCuatro\obj\Debug\netstandard2.0\EjercicioDosPuntoCuatro.pdb
