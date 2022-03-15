@@ -1,12 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EjercicioDosPuntoCuatro.Views.ListVideoPage">
+             x:Class="EjercicioDosPuntoCuatro.Views.ListVideoPage"
+             Title="Videos Agregados a DB SQLite">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="lstvideos"  HasUnevenRows="True" SeparatorVisibility="None" ItemTapped="lstvideos_ItemTapped"  ItemSelected="lstvideos_ItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell  >
+                            <Grid Padding="8" >
+                                <Frame CornerRadius="10" HasShadow="True">
+                                    <SwipeView>
+                                        <SwipeView.RightItems>
+                                            <SwipeItem  Text="Ver Detalles" BackgroundColor="#2296F3" Invoked="VerDetalles" />
+                                        </SwipeView.RightItems>
+                                            <StackLayout Orientation="Horizontal">
+                                                <StackLayout Orientation="Vertical">
+                                                    <Label Text="{Binding codigo}" Grid.Row="0" Grid.Column="0"   />
+                                                    <Label Text="{Binding url_video}" Grid.Row="0" Grid.Column="1" />
+                                                    <Label Text="{Binding nombre}" Grid.Row="0" Grid.Column="2" />
+                                                    <Label Text="{Binding descripcion}" Grid.Row="0" Grid.Column="3" />
+                                                </StackLayout>
+                                            </StackLayout>
+                                    </SwipeView>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
