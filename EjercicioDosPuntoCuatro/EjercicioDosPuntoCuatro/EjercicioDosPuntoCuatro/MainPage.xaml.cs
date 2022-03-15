@@ -124,7 +124,7 @@ namespace EjercicioDosPuntoCuatro
 
             if (resultado == 1)
             {
-                await DisplayAlert("Mensaje", "Video Registrado.", "ok");               
+                await DisplayAlert("", "Video Registrado.", "ok");               
             }
             else
             {

@@ -16,7 +16,7 @@ namespace EjercicioDosPuntoCuatro
             {
                 if (basedatos == null)
                 {
-                    basedatos = new VideosDB(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "VideosDB.db3"));
+                    basedatos = new VideosDB(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "VideosDataBase.db3"));
                 }
                 return basedatos;
             }
