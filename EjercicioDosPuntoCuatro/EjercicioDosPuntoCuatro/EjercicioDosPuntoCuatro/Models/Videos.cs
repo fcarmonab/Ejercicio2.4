@@ -14,6 +14,6 @@ namespace EjercicioDosPuntoCuatro.Models
         public string Url_video { get; set; }
 
         [MaxLength(80)]
-        public string descripcion { get; set; }
+        public string Descripcion { get; set; }
     }
 }
